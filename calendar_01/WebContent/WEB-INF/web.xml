@@ -9,4 +9,15 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+
+  <servlet>
+    <servlet-name>MonthView</servlet-name>
+    <servlet-class>monthly.MonthView</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>MonthView</servlet-name>
+    <url-pattern>/monthview</url-pattern>
+  </servlet-mapping>
+
 </web-app>
