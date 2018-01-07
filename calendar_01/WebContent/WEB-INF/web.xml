@@ -20,4 +20,14 @@
     <url-pattern>/monthview</url-pattern>
   </servlet-mapping>
 
+ <servlet>
+    <servlet-name>MonthView2</servlet-name>
+    <servlet-class>monthly.MonthView2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>MonthView2</servlet-name>
+    <url-pattern>/monthview2</url-pattern>
+  </servlet-mapping>
+
 </web-app>
